@@ -2,7 +2,7 @@ import { google } from '@ai-sdk/google';
 import { generateObject } from 'ai';
 import { z } from 'zod';
 
-export const maxDuration = 30;
+export const maxDuration = 35;
 
 export async function POST(req: Request) {
   const { prompt, framework, formats } = await req.json();
